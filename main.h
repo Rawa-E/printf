@@ -11,15 +11,4 @@ int _printf(const char *format, ...);
 int handle_d (int n);
 int handle_i (int n);
 
-/**
- * struct identifierStruct - structure definition of a printTypeStruct
- * @indentifier: type
- * @printer: function to print
- */
-typedef struct identifierStruct
-{
-char *indentifier;
-int (*printer)(va_list);
-} identifierStruct;
-
 #endif
