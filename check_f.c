@@ -11,7 +11,7 @@ void check_f(const char *format, va_list pr)
 		if (*format == '%')
 		{
 			format++;
-			_handler(*format, pr);
+			_handler(format, pr);
 		}
 		else
 			_putchar(*format);

@@ -5,7 +5,7 @@
  * @pr:strings as args
  * Return:returns thr number of printed chars
 */
-int _handler(const char hand, va_list pr)
+int _handler(const char* hand, va_list pr)
 {
 	int logn = 0;
 
